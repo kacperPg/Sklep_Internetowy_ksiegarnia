@@ -1,0 +1,53 @@
+Instrukcja instalacji i uruchamiania aplikacji
+
+1. Wymagania systemowe:
+
+Zainstalowany Visual studio code (https://code.visualstudio.com/download)
+Zainstalowany Node.js (https://nodejs.org/en/download)
+
+2. Instrukcje instalacji z pomocą terminala
+
+Przejdź do katalogu z aplikacją-frontend:
+   cd .\Praca\
+Zainstaluj zależności przy użyciu menadżera pakietów [np. npm]:
+    npm install
+
+Przejdź do katalogu z aplikacją-Apibazadanych:
+    cd .\ApiBazaDanych\
+Zainstaluj zależności przy użyciu menadżera pakietów [np. npm]:
+    npm install
+
+
+3. Instrukcje uruchamiania
+
+Uruchom aplikację backend:
+    Przejdz do katalogu Praca
+   Wpisz w terminal: npm start
+
+Uruchom aplikację frontend:
+   Przejdz do katalogu ApiBazaDanych
+   Wpisz w terminal: npm start
+
+Otwórz przeglądarkę internetową i przejdź do adresu:
+    http://localhost:3000
+
+Aplikacja powinna być teraz widoczna i gotowa do użycia.
+
+4. Dodatkowe informacje
+
+Przykładowe konto użytkownika 
+    Login: KacperPog
+    Hasło: zaq1@WSX
+Przykładowe konto Administratora 
+    Login: Admin
+    Hasło: password
+
+Przykładowy numer karty do wykrzystania w płatności
+Number karty:4242 4242 4242
+MM/YY:04/44   CVC:444
+
+Jeśli pojawi się błąd 
+"[eslint] Plugin "react" was conflicted between "package.json" naciśnij ctrl+s w "Praca\package.json"
+
+5. Autor 
+Kacper Pogorzelski
